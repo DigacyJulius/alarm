@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Status-bar / notification small icon: white twin-bell alarm clock
+     silhouette matching the launcher icon. Alpha-only design so Android
+     can tint it correctly. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- left bell -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M3.6,7.1l2.9,-2.4 1.9,2.2 -2.9,2.4z" />
+    <!-- right bell -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M20.4,7.1l-2.9,-2.4 -1.9,2.2 2.9,2.4z" />
+    <!-- clock face with hands cut out -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M12,5a7.5,7.5 0,1 0,0.001,0z M11,8.6h2v3.9l3,1.8 -1,1.7 -4,-2.4z" />
+</vector>
